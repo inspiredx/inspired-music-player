@@ -10,7 +10,6 @@ export default function SidebarButton(props) {
       {props.title}
       
     </div>
-  </Link>
-  
+  </Link>  
   ); 
-}
+};
