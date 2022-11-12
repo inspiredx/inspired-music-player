@@ -29,10 +29,10 @@ export default function Home() {
     }
   }, []);
 
-  window.addEventListener('beforeunload', function (e) {    
-    e.preventDefault();
-    return localStorage.clear();       
-  });
+  // window.addEventListener('beforeunload', function (e) {    
+  //   e.preventDefault();
+  //   return localStorage.clear();       
+  // });
 
   return !token ?
     (<Login />) : (
